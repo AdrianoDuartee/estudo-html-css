@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoulCode</title>
+    <link rel="stylesheet" href="./CSS/atividade1.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <section class="login">
         <img src="./img/light-logo.png" />
         <h1>Bem-vindo! Entre com seu email e senha</h1>
-    </header>
     <form>
         <div>
             <label for="campoEmail">Email</label><br />
@@ -20,88 +23,92 @@
             <label for="campoSenha">Senha</label><br />
             <input id="campoSenha" name="campoSenha" type="password" required />
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit">Entrar</button>
         <div>
             <input id="checkTermos" type="checkbox" name="concordaTermos" required />
-            <label for="checkTermos">Concordar com os termos de serviço</label>
+            <label for="checkTermos">Continuar conectado?</label>
         </div>
-        <hr/>
+        <br><br>
     </form>
-    <table border="1" cellpadding="3" style="border-collapse: collapse">
+    </section>
+    <div class="tabelas">
+        <section class="tabela1">
+    <table cellpadding="20">
         <thead>
             <tr>
-                <th colspan="2">DESENVOLVEDOR JAVA FULL STACK</th>
+                <th colspan="2" class="titulo">DESENVOLVEDOR JAVA FULL STACK</th>
             </tr>
         </thead>
-        <tbody align="center">
             <tr>
-                <td>Custo</td>
-                <td>BOLSA INTEGRAL</td>
+                <td><img src="./img/custo.png" height="20">Custo</td>
+                <td class="bolsa-integral">Bolsa Integral</td>
             </tr>
             <tr>
-                <td>Prazo de Inscrição</td>
+                <td><img src="./img/calendario.png" height="20">Prazo de Inscrição</td>
                 <td>até 16/01/23</td>
             </tr>
             <tr>
-                <td>Inicio do curso</td>
+                <td><img src="./img/foguete.png" height="20">Inicio do curso</td>
                 <td>30/01/23</td>
             </tr>
             <tr>
-                <td>Duração</td>
+                <td><img src="./img/horario.png" height="20">Duração</td>
                 <td>16 semanas</td>
             </tr>
             <tr>
-                <td>Horario de Aula</td>
+                <td><img src="./img/relogio.png" height="20">Horário de Aula</td>
                 <td>8h às 18h</td>
             </tr>
             <tr>
-                <td>Formato de Aula</td>
+                <td><img src="./img/aula.png" height="20">Formato de Aula</td>
                 <td>Online e ao vivo</td>
             </tr>
             <tr>
-                <td>idioma</td>
+                <td><img src="./img/idioma.png" height="20">Idioma</td>
                 <td>Português</td>
             </tr>
-        </tbody>
-    </table>
-    <hr/>
-    <table border="1" cellpadding="3" style="border-collapse: collapse">
+            <tr>
+                <td colspan="2"><button class="inscrever">Inscrição</button></td>
+            </tr>
+        </table>
+    </section>
+    <section class="tabela2">
+    <table cellpadding="20">
         <thead>
             <tr>
-                <th colspan="2">DESENVOLVEDOR SALESFORCE</th>
+                <th colspan="2" class="titulo">DESENVOLVEDOR SALESFORCE</th>
             </tr>
         </thead>
-        <tbody align="center">
             <tr>
-                <td>Custo</td>
-                <td>BOLSA INTEGRAL</td>
+                <td><img src="./img/custo.png" height="20">Custo</td>
+                <td class="bolsa-integral">Bolsa Integral</td>
             </tr>
             <tr>
-                <td>Prazo de Inscrição</td>
+                <td><img src="./img/calendario.png" height="20">Prazo de Inscrição</td>
                 <td>até 03/10/22</td>
             </tr>
             <tr>
-                <td>Inicio do curso</td>
+                <td><img src="./img/foguete.png" height="20">Inicio do curso</td>
                 <td>17/10/22</td>
             </tr>
             <tr>
-                <td>Duração</td>
+                <td><img src="./img/horario.png" height="20"> Duração</td>
                 <td>12 semanas</td>
             </tr>
             <tr>
-                <td>Horario de Aula</td>
+                <td><img src="./img/relogio.png" height="20"> Horário de Aula</td>
                 <td>8h às 18h</td>
             </tr>
             <tr>
-                <td>Formato de Aula</td>
+                <td><img src="./img/aula.png" height="20"> Formato de Aula</td>
                 <td>Online e ao vivo</td>
             </tr>
             <tr>
-                <td>idioma</td>
+                <td><img src="./img/idioma.png" height="20"> idioma</td>
                 <td>Português</td>
             </tr>
-        </tbody>
-    </table>
-    
+        </table>
+    </section>
+</div>
 </body>
 </html>
